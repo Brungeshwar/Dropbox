@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "target": "ESNext",
+      "moduleResolution": "Node",
+      "lib": ["ESNext"],
+      "types": ["node"],
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "experimentalDecorators": true,          // Enable decorators
+      "emitDecoratorMetadata": true,          // Emit metadata for decorators
+      "outDir": "./dist"
+    },
+    "ts-node": {
+    "esm": true
+  }
+  }
+  
